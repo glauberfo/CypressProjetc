@@ -31,3 +31,11 @@ Para que seja possível realizar a compra
     E adiciono o produto no carrinho
     E Altero a quantidade para "3" produtos
     Então devo validar a alteração do valor no resumo
+
+  @automatizado
+   Cenário: Adicionar um produto no carrinho mais de uma vez
+   Quando realizo uma pesquisa "Games"
+   E seleciono um produto
+   E adiciono o produto no carrinho
+   E adiciono o produto no carrinho mais "1" vez
+   Então devo visualizar carrinho corretamente
