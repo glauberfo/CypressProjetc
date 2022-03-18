@@ -39,3 +39,22 @@ Para que seja possível realizar a compra
    E adiciono o produto no carrinho
    E adiciono o produto no carrinho mais "1" vez
    Então devo visualizar carrinho corretamente
+
+  @automatizado
+    Cenário: Comprar um item no site
+    Quando estou logado no site
+    E pesquiso pelo produto "webcam"
+    E clico no produto "Webcam Camera Usb Full Hd 1080P" 
+    E clico no botão comprar 
+    Então o produto deve ser adicionado no meu carrinho e devo ir para a página do carrinho
+    E clico no botão continuar 
+    Então devo ir para a página de endereço de entrega 
+    E escolher a opção "Recebe até 22 de março com frete grátis"
+    E escolher a opção de pagamento "Cartão de Crédio"
+    E preecher numero do cartão com um cartão válido
+    E preencher nome completo 
+    E preencher validade
+    E preencher codigo de segurança
+    E selecionar número de parcelas 
+    E clicar em fechar pedido 
+    Então o pedido deve criado e devo ir para a página da home 
