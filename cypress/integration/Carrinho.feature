@@ -51,10 +51,10 @@ Para que seja possível realizar a compra
     Então devo ir para a página de endereço de entrega 
     E escolher a opção "Recebe até 22 de março com frete grátis"
     E escolher a opção de pagamento "Cartão de Crédio"
-    E preecher numero do cartão com um cartão válido
-    E preencher nome completo 
-    E preencher validade
-    E preencher codigo de segurança
-    E selecionar número de parcelas 
+    E preecher numero do cartão com um cartão válido "Numero do Cartao"
+    E preencher nome completo "Glauber Oliveira"
+    E preencher validade "22/26"
+    E preencher codigo de segurança "222"
+    E selecionar número de parcelas "10x"
     E clicar em fechar pedido 
-    Então o pedido deve criado e devo ir para a página da home 
+    Então o pedido deve criado e a mensagem "Compra Concluida"
