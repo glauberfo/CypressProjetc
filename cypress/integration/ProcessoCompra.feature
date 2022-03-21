@@ -9,18 +9,18 @@ Como usuário, desejo efetuar a compra de um produto.
     @automatizado
     Cenário: Comprar um produto
     Quando visualizo os produtos disponíveis
-    E escolho um dos produtos 
-    Então clico no produto
+    E escolho um dos produtos da pagina home
+    E clico no produto
     E sou redirecionado para a pagina especifica do produto
-    Então me certifico que é esse o produto que preciso
-    E clico em "comprar"
+    E clico em comprar
     Então sou redirecionado para meu carrinho para revisar a compra
     E clico em continuar
-    Então sou redirecionado para tela de login 
+    E faço login na aplicação
     E insiro minhas credenciais 
-    Então clico em Continuar
-    E sou redirecionado para a tela de pagamento
-    E seleciono o método de pagamento
+    E clico em Continuar
+    E seleciono o método de pagamento "Pix"
+    E preencho os dados de pagamento "Numero do Cartão"
+    E preencho o código de segurança "133"
     
 
     
