@@ -2,11 +2,9 @@
 @Zup @Carrinho
 Funcionalidade: Carrinho
 Como usuário, desejo adicionar um produto no carrinho
-Para que seja possível realizar a compra
 
     Contexto:  
     Dado que eu esteja na tela home
-    
 
    @automatizado
    Cenário: Adicionar um produto no carrinho
