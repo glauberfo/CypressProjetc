@@ -22,4 +22,4 @@ da categora de informatica ao carrinho
     E adicionar as informações do cartão
     E adicionar dados pessoais 
     E clicar em fechar pedido 
-    Então o pedido é criado e sou enviado a pagina hom
+    Então o pedido é criado e sou enviado a pagina home
