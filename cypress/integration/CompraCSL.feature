@@ -17,7 +17,8 @@ Como usuário, desejo adicionar um produto no carrinho, e finalizar uma compra.
     E realizo uma pesquisa "Ar condicionado"
     E seleciono um produto
     E confirmo a voltagem
-    E clico em continuar "Sem Garantia Extendida" e "Sem instalação de Ar-Condicionado"
+    E clico em continuar "Sem Garantia Extendida" 
+    E seleciono "Sem instalação de Ar-Condicionado"
     Então devo visualizar o carrinho corretamente
     E seleciono o frete
     E insiro os dados de pagamento
